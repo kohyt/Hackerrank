@@ -1,0 +1,7 @@
+#splitting string by space delimiter
+#join with hypen
+
+def split_and_join(line):
+    splitting = line.split(" ")
+    new = "-".join(splitting)
+    return new
