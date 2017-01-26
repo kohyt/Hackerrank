@@ -1,4 +1,4 @@
-#sWAP cASE
+# sWAP cASE
 
 def swap_case(s):
     new = ""
