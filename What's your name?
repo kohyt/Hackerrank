@@ -1,5 +1,5 @@
 #read 2 lines
-#print first name, last name in one line
 
 def print_full_name(a, b):
+    #print first name, last name in one line
     print("Hello",a,b+"! You just delved into python.")
