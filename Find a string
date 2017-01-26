@@ -1,0 +1,12 @@
+# find the number of times a sub_string appears in a string
+
+def count_substring(string, sub_string):
+    # initialise counter
+    counter = 0
+    # check for each letter to the length of the sub_string, is it the substring
+    for x in range(len(string)):
+        if string[x:x+len(sub_string)] == sub_string:
+            # add to counter if present
+            counter += 1
+    return counter
+    
