@@ -2,9 +2,12 @@
 
 def swap_case(s):
     new = ""
+    # check each letter in string
     for letter in s:
+        # if uppercase convert to lowercase
         if letter.isupper():
             new += letter.lower()
+        # if lowercase convert to uppercase
         else: 
             new += letter.upper()
     return new
