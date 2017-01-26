@@ -1,0 +1,29 @@
+# check if string has alphanumeric, alphabetical, digits, lowercase and uppercase characters
+
+if __name__ == '__main__':
+    s = input()
+    # set check all to be False
+    alnum = False
+    alpha = False
+    digit = False
+    upper = False
+    lower = False
+    # check, for each letter in string, if it contains any of the above
+    for x in range(len(s)):
+      # if the character is in the format of the above, set to True
+      if s[x].isalnum():
+        alnum = True
+      if s[x].isalpha():
+        alpha = True
+      if s[x].isdigit():
+        digit = True
+      if s[x].isupper():
+        upper = True
+      if s[x].islower():
+        lower = True
+    # output
+    print(alnum)
+    print(alpha)
+    print(digit)
+    print(lower)
+    print(upper)
