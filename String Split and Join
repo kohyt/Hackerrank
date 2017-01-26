@@ -1,6 +1,6 @@
 def split_and_join(line):
-    #splitting string by space delimiter
+    # splitting string by space delimiter
     splitting = line.split(" ")
-    #join with hypen
+    # join with hypen
     new = "-".join(splitting)
     return new
