@@ -1,0 +1,14 @@
+#change one character in a string
+
+def mutate_string(string, position, character):
+    letters = []
+    #by splitting string and placing each letter in an array
+    for letter in range(len(string)):
+        letters.append(string[letter])
+    #change the character with given character and given position
+    letters[position] = character
+    final = ""
+    #output final string by joining them together
+    for each in letters:
+        final += each
+    return final
